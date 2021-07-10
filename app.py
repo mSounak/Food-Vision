@@ -33,6 +33,9 @@ with st.sidebar:
     st.markdown(body='#### Choose Input type:')
     st.write("")
     method = st.sidebar.radio('', options=['Image', 'URL'])
+    st.write("")
+    st.write("")
+    st.write("To know more about this app, visit [**Github**](https://www.github.com/mSounak/Food-Vision)")
 
 # Get the labels of the Food101
 labels=[]
@@ -75,7 +78,6 @@ def predicting(image, model):
 # Main Body
 st.title("Food Vision 🍜📸")
 st.header("Check your food photos!")
-st.write("To know more about this app, visit [**Github**](https://www.github.com/mSounak/Food-Vision)")
 if (method == 'Image'):
     # For Image option
     file = st.file_uploader('Please upload a food image', type=['png', 'jpeg', 'jpg'])

@@ -15,6 +15,7 @@ The Accuracy of DeepFood was **77.4%** and our models is **79%**. It is not much
 
 Finally after training the model, I have exported as `.h5` files and then integrated it with **Streamlit Web App**
 
+### Try it out yourself, [Click Here!](https://share.streamlit.io/msounak/food-vision/app.py)
 
 
 <div align="center">
