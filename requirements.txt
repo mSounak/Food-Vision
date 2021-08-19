@@ -1,5 +1,5 @@
 altair==4.1.0
-tensorflow-cpu==2.4.2
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.4.2-cp39-cp39-manylinux2010_x86_64.whl
 streamlit==0.79.0
 pandas==1.0.1
 numpy==1.19.5
