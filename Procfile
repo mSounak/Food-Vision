@@ -1,0 +1,1 @@
+worker: streamlit app.py
